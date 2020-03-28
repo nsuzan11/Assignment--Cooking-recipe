@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title><%= title%></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  
+    <body>
+
+</head>
+
+<head>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">FOOD RECIPE BOOK</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  
+  <!--add recipes-->
+
+  <h2 class="text-center" ><b>Social Kitchen</b></h2>
+  <div class="col-md-5"></div>
+  <div class="container col-lg-3">
+    <form method="POST" action="record.html" class="text-center">
+      <div class="form-group">
+        <label for="email"><b>Cook'S Name:</b></label>
+        <input type="text" class="form-control" name="name" />
+      </div>
+      <div class="form-group">
+        <label for="email"><b>Food's Name:</b></label>
+        <input type="text" class="form-control" name="food_name" />
+      </div>
+      <div class="form-group">
+        <label for="email"><b>Cuisine:</b></label>
+        <input type="text" class="form-control" name="cuisine" />
+      </div>
+      <div class="form-group">
+        <label for="email"><b>Link:</b></label>
+        <input type="text" class="form-control" name="link" />
+      </div>
+      <div class="form-group">
+        <label for="email"><b>Recipe:</b></label>
+        <input type="text" class="form-control" name="food_recipe" />
+      </div>
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+  
+  <INPUT TYPE=“hidden” NAME=“redirect” VALUE=“record.html”>
+    <input id=Submit type=submit value=Submit name=Submit1>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  </script>
+  <style>
+    body {
+      background-image: url('food.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style> 
+  
+  </body>
+
+</html>
